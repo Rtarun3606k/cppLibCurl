@@ -1,0 +1,26 @@
+cd /build
+cmake ..
+make
+./main
+
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.88.1")  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dragoon/coding/cppLibCurl/stablecoin-depeg-tracker/build
+[ 33%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[ 66%] Building CXX object CMakeFiles/main.dir/src/DepegRiskEngine.cpp.o
+[100%] Linking CXX executable main
+[100%] Built target main
+Risk Level: HIGH | Reason: Major price drop
